@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.app-container {
+  width: 70%;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.app-header {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.app-header img {
+  position: absolute;
+  left: 0;
+  top: -16px;
+  width: 110px;
+}
+
+.header-container {
+  overflow: hidden;
+}
+
+.result-container, .search-container {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.header-container .header, .data-container .data {
+  width: 25%;
+  float: left;
+  padding: 10px 0;
+}
+
+.header-container .header {
+  font-weight: bold;
+  background: #ddd;
+}
+
+.header-container .cat, .data-container .cat {
+  width: 50% !important;
+}
+
+.text-data-container {
+  border: 2px solid #888;
+  height: 120px;
+  overflow: auto;
+  margin: 0 0 10px 0;
+  padding: 10px;
+}
+
+.search-container input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  padding: 10px;
+  background: #0078D4;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.search-container button:hover {
+  cursor: pointer;
+}
+
+.data-container .wrapper {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.loader-container {
+  padding: 10px;
+}
+
+input:-internal-autofill-previewed, input:-internal-autofill-selected, textarea:-internal-autofill-previewed, textarea:-internal-autofill-selected, select:-internal-autofill-previewed, select:-internal-autofill-selected {
+  background-color: transparent !important;
+}
